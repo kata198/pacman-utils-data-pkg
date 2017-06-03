@@ -2,7 +2,7 @@
 _basename=pacman-utils
 
 pkgname=pacman-utils-data
-_basever="0.5.0"
+_basever="0.5.1"
 date_str=2017_06_03
 pkgver="${_basever}__${date_str}"
 pkgrel=1
@@ -13,7 +13,7 @@ arch=(i686 x86_64)
 license=(apache)
 depends=(pacman-utils)
 source=("https://github.com/kata198/pacman-utils/archive/${_basever}.tar.gz")
-md5sums=('d234afce69bf69e50aa29904895245e0')
+md5sums=('020375e8130ae5a73c721e9194ca9142')
 
 build() {
   cd "${_basename}-${_basever}"
