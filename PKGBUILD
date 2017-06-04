@@ -1,3 +1,4 @@
+# Maintainer: Tim Savannah <kata198@gmail.com>
 
 _basename=pacman-utils
 
